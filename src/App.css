@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+body {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins globally */
+}
+@font-face {
+  font-family: 'Nasaz';
+  src: url('/public/nasalization-rg.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Nasaz {
+  font-family: 'Nasaz', sans-serif;
+}
