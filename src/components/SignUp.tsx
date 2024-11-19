@@ -102,7 +102,7 @@ function SignUp() {
               src="/PlanetIcon.png"
               alt="Icon"
             />
-            <CardTitle className="text-3xl">Sign Up</CardTitle>
+            <CardTitle className="text-3xl">Sign Up!!!</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="space-y-2 w-96">

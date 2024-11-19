@@ -12,14 +12,66 @@ import {
   function SignIn() {
     return (
       <Card className="flex flex-col items-center mt-4 justify-center w-screen md:flex-row md:w-full lg:max-w-full xl:w-screen bg-transparent py-4 border-none">
-        <div className="w-full md:w-screen xl:w-2/5 p-2 bg-transparent flex flex-col items-center md:justify-between justify-center gap-2 xl:items-stretch">
+        <div className="w-full md:w-screen xl:w-2/5 p-2 bg-transparent flex flex-col items-center md:justify-evenly text-nowrap md:mr-6 justify-center gap-2 xl:items-stretch">
+          <div className="flex flex-row w-full md:hidden  overflow-hidden">
+          <img
+              width={15}
+              height={20}
+              className="self-end mr-10"
+              src="/starsSm.png"
+              alt="Stars"
+            />
+    
+            <img
+              className="self-center mr-10"
+              width={100}
+              height={90}
+              src="/Satelite.png"
+              alt="Satellite"
+            />
+                <img
+              className="self-center mr-10"
+              width={100}
+              height={90}
+              src="/Earth.png"
+              alt="Earth"
+            />
+            <img
+              className="self-end mr-10"
+              width={80}
+              height={90}
+              src="/Comet.png"
+              alt="Comet"
+            />
+            <img
+              width={15}
+              height={20}
+              className="self-center mr-44"
+              src="/StarsXl.png"
+              alt="Stars"
+            />
+            <img
+              width={15}
+              height={20}
+              className="self-start ml-14"
+              src="/StarsXl.png"
+              alt="Stars"
+            />
+            <img
+              width={15}
+              height={20}
+              className="self-end mr-44"
+              src="/StarsXl.png"
+              alt="Stars"
+            />
+          </div>
           <div className="flex flex-row xl:flex-row items-center gap-2">
             <img src="/Logo.png" className="w-16 h-16" alt="Logo" />
             <h2 className="text-5xl font-semibold bg-gradient-to-b from-blueGradient to-pinkGradient bg-clip-text text-transparent Nasaz">
               TSB
             </h2>
           </div>
-          <div className="flex flex-row items-center ">
+          <div className="flex flex-row justify-center items-center gap-2 mr-4 ">
             <h3 className="text-sm md:text-sm font-semibold bg-gradient-to-b from-blueGradient to-pinkGradient bg-clip-text text-transparent">
               A transcript summarization bot powered by
             </h3>
@@ -93,7 +145,7 @@ import {
             />
           </div>
         </div>
-        <div className="w-full sm:max-w-xs md:max-w-md lg:max-w-3xl xl:max-w-2xl mx-auto h-auto xl:h-[620px] flex items-center justify-center bg-darksky py-2 rounded-md">
+        <div className="w-full sm:max-w-xs md:max-w-md lg:max-w-3xl xl:max-w-2xl mx-auto h-auto xl:h-[620px] flex items-center justify-center bg-darksky p-3 rounded-md">
           <Card className="w-full max-w-md md:max-w-lg flex items-center flex-col p-3">
             <CardHeader className="flex items-center space-x-2">
               <img
