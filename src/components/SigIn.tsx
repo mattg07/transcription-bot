@@ -149,7 +149,7 @@ import {
           <Card className="w-full max-w-md md:max-w-lg flex items-center flex-col p-3">
             <CardHeader className="flex items-center space-x-2">
               <img
-                className="w-[45px] h-[63px]"
+                className="w-[35px] h-[55px]"
                 src="/Astronaut.png"
                 alt="Icon"
               />
