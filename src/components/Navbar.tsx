@@ -18,8 +18,8 @@ function Navbar() {
           <Link to="/signup" className="text-white hover:text-gray-400">
             Sign Up
           </Link>
-          <Link to="/contact" className="text-white hover:text-gray-400">
-            Contact
+          <Link to="/fetch" className="text-white hover:text-gray-400">
+            Fetch
           </Link>
         </div>
       </div>
